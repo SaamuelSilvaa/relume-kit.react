@@ -1,0 +1,23 @@
+ .container {
+   padding: 8px 16px 8px 48px;
+   display: flex;
+   align-items: center;
+   gap: 16px;
+   justify-content: space-around;
+   height: 48px;
+   width: 100%;
+   border: 1px solid black;
+
+ }
+
+ p {
+   justify-content: space-around;
+  display: flex;
+   text-align: center;
+
+ }
+
+ button {
+
+   display: flex;
+ }
