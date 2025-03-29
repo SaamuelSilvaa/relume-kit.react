@@ -1,0 +1,84 @@
+.AboutMe {
+width: 100%;
+    height: 620px;
+    background-color: #1B1E21;
+    margin-top:40px ;
+
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:60px 189.5px;
+    gap: 42px;
+
+
+}
+
+.title-about h3 {
+    color: var(--seasalt);
+    font-family: var(--primary-font);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.title-about {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sub-title-about h5 {
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--platinum);
+    white-space: nowrap;
+}
+
+.text-about {
+    color: var(--platinum);
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.description-about {
+    width: 520px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.titles-about {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+
+.layout-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 500px;
+    height: 500px;
+
+}
+
+.office {
+    width: 245px;
+    height: 245px;
+    object-fit: cover;
+}
+
+.large {
+    grid-column: span 2;
+    height: 245px;
+    width: 500px;
+}

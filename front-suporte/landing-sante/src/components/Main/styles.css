@@ -1,0 +1,477 @@
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+ }
+
+
+.services-clinic {
+
+    height: 584px;
+    padding-top:12px ;
+    padding-bottom: 12px;
+
+}
+
+
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 12px 189px;
+}
+
+.description-services {
+
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin-right: 10px;
+
+}
+
+
+
+
+.rectangle {
+    width: 8px;
+    height: 38px;
+    background-color: var(--asparagus);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.title h3 {
+    font-family: var(--primary-font);
+    font-size: var(--h3-size);
+    font-weight: 600;
+    color: #090909;
+}
+
+.subtext-services {
+
+    font-family: var(--secondary-font);
+    font-size: var(--p-regular);
+    font-weight: var(--weight-medium);
+    color: var(--eerie);
+
+}
+
+
+
+.cards-one {
+    display: flex;
+
+    gap: 24px;
+
+}
+
+.cards-two {
+    display: flex;
+
+    gap: 24px;
+
+}
+
+.cards-services {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+
+}
+
+.card-br {
+    width: 193px;
+    height: 193px;
+    border-radius: 8px;
+    border: 0.5px;
+    border-color: var(--asparagus);
+    box-shadow: 0 4px 4px rgba(50, 50, 50, 0.2);
+    background-color: #f3f7ef;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 29px;
+    padding-right: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-br:hover {
+    transform: translateY(-10px) scale(1.02);
+
+}
+
+.cards-one p {
+    display: flex;
+    padding-left: 8px;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-wrap: nowrap;
+
+}
+
+.cards-two p {
+    display: flex;
+    padding-left: 8px;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-wrap: nowrap;
+
+}
+
+.card img {
+    width: 91.5px;
+    height: 80px;
+    display: flex;
+
+}
+
+.card-br img {
+    width: 91.5px;
+    height: 80px;
+    display: flex;
+
+}
+
+.card {
+    width: 193px;
+    height: 193px;
+    border-radius: 8px;
+    border: 0.5px;
+    border-color: var(--asparagus);
+    box-shadow: 0 4px 4px rgba(50, 50, 50, 0.2);
+    background-color: #f3f7ef;
+    gap: 36px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 29px;
+    padding-right: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.orthodontic-container {
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.anesthesia-container {
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.title-main {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.sub-title-main {
+    padding-bottom: 16px;
+    font-family: var(--secondary-font);
+    font-size: var(--p-regular);
+    font-weight: var(--weight-medium);
+    width: 100%;
+}
+
+
+.rectangle-main {
+    width: 8px;
+    height: 38px;
+    background-color: var(--asparagus);
+}
+
+.main-container h3 {
+    font-family: var(--primary-font);
+    font-size: var(--h3-size);
+    font-weight: 600;
+    color: #090909;
+}
+
+.orthodontic-container h3 {
+    font-family: var(--primary-font);
+    font-size: var(--h3-size);
+    font-weight: 600;
+    color: #090909;
+}
+
+.anesthesia-container h3 {
+    font-family: var(--primary-font);
+    font-size: var(--h3-size);
+    font-weight: 600;
+    color: #090909;
+}
+
+.main-container h6 {
+
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-weight: var(--weight-medium);
+    color: var(--eerie);
+
+}
+
+.orthodontic-container h6 {
+
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-weight: var(--weight-medium);
+    color: var(--eerie);
+
+}
+
+.anesthesia-container h6 {
+
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-weight: var(--weight-medium);
+    color: var(--eerie);
+
+}
+
+.main-container p {
+    font-family: var(--secondary-font);
+    font-size: var(--p-regular);
+    font-weight: var(--weight-medium);
+    color: var(--eerie);
+}
+
+.orthodontic-container p {
+    font-family: var(--secondary-font);
+    font-size: var(--p-regular);
+    font-weight: var(--weight-medium);
+    color: var(--eerie);
+}
+
+.anesthesia-container p {
+    font-family: var(--secondary-font);
+    font-size: var(--p-regular);
+    font-weight: var(--weight-medium);
+    color: var(--eerie);
+}
+
+.cards-inovation {
+    height: 380px;
+    display: flex;
+    gap: 65px;
+    margin-bottom: 40px;
+}
+
+.card-main {
+
+    width: 507px;
+    height: 360px;
+    border: 1px solid var(--silver);
+    border-radius: 12px;
+    padding: 24px 12px;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(50, 50, 50, 0.2);
+}
+
+.card-main h5 {
+    font-family: var(--primary-font);
+    font-size: var(--h5-size);
+    font-weight: var(--weight-medium);
+    text-align: center;
+
+}
+
+.text-card-inovation {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-main li {
+
+    font-family: var(--secondary-font);
+    font-size: var(--p-regular);
+    font-weight: var(--weight-regular);
+
+}
+
+.text-card-inovation ul {
+
+    width: 260px;
+    height: 171px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.image-inovation {
+
+    position: absolute;
+    top: 214px;
+    right: 36px;
+    bottom: 32px;
+    left: 350px;
+
+}
+
+#card-two {
+
+    border: 4px solid var(--asparagus);
+    background-color: #CCE5B233;
+
+}
+
+#card-two img {
+    position: absolute;
+    top: 214px;
+    right: 36px;
+    bottom: 32px;
+    left: 335px;
+}
+
+.cards-orthodontic {
+    height: 380px;
+    display: flex;
+    gap: 65px;
+    margin-bottom: 125px;
+}
+
+
+#card-orthodontic {
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+#card-orthodontic-two {
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+}
+
+
+.images-aligner {
+    width: 325px;
+    height: 180px;
+    display: flex;
+}
+
+.img-aligner-one {
+
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px
+}
+
+.img-aligner-two {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px
+}
+
+.img-smile {
+    width: 325px;
+    height: 176px;
+
+
+}
+
+
+.text-card-orthodontic ul {
+    display: flex;
+    padding: 12px 20px 0 20px;
+    gap: 20px;
+}
+
+.text-card-orthodontic-two ul {
+    display: flex;
+    gap: 20px;
+}
+
+.cards-anesthesia {
+    height: 380px;
+    display: flex;
+    gap: 65px;
+    margin-bottom: 125px;
+}
+
+#card-anesthesia {
+    height: 506px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+#card-anesthesia-two {
+    height: 506px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.text-card-anesthesia ul {
+    display: flex;
+    padding: 12px 18px 0 20px;
+
+}
+
+.text-card-anesthesia-two ul {
+    display: flex;
+    padding: 12px 18px 0 20px;
+    align-items: center;
+}
+
+.text-card-anesthesia-two ul {
+    display: flex;
+    padding-bottom: 5px;
+    gap: 20px;
+}
+
+.li-left {
+    position: relative;
+    left: 36px;
+}
+
+.li-right {
+    position: relative;
+    left: 6px;
+}

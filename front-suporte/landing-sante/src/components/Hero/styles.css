@@ -1,0 +1,74 @@
+.banner {
+    background-image: url('../../assets/icons/photo-clinic.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(32, 32, 32, 0.5);
+    background-blend-mode: overlay;
+}
+
+.content {
+    text-align: center;
+    color: var(--seasalt);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content h1 {
+
+    font-family: var(--primary-font);
+    font-size: 76px;
+    font-weight: 600;
+    color: var(--seasalt);
+
+}
+
+.content p {
+
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-weight: 500;
+
+}
+
+.acessibilidade {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    max-width: 303px;
+    padding: 15px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    right: 10px;
+}
+
+.acessibilidade img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 24px;
+    margin-right: 80px;
+}
+
+.acessibilidade p {
+
+    font-family: var(--seconday-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--timberwolf);
+}
+
+@media screen and (max-width:744px) {
+
+
+}
+
+
+
+
