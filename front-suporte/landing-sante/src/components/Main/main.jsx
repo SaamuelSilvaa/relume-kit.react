@@ -13,16 +13,10 @@ import Surgery from '../../assets/icons/surgery.svg'
 import PersonPain from '../../assets/icons/icon-person-pain.svg'
 import Person from '../../assets/icons//icon-person-scanner.svg'
 import Smile from '../../assets/icons/smile.png'
-import AlignerOne from '../../assets/icons/aligner-invisalign.png'
-import AlignerTwo from '../../assets/icons/aligner-wearing.png'
+import AlignerTwo from '../../assets/icons/aligner-invisalign.png'
+import AlignerOne from '../../assets/icons/aligner-wearing.png'
 import NitrousOxide from '../../assets/icons/nitrous-oxide.png'
 import Anesthesia from '../../assets/icons/anesthesia.png'
-
-
-
-
-
-
 
 
 
@@ -34,24 +28,23 @@ export default function Main() {
         <main>
 
             <div className="main-content">
-<div className="divider">
+                <div className="divider">
                     <img className='divider' src={GoldDivider} alt="Divisoria de ouro" />
 
-</div>
+                </div>
                 <div class="services-clinic">
 
                     <div class="services">
                         <div class="description-services">
-                            <div class="title">
+                            <div class="title-services">
                                 <div class="rectangle"></div>
                                 <h3>Nossos serviços</h3>
                             </div>
 
-                            <div class="subtext-services">
-                                <p>
-                                    Na Clínica Santé oferecemos soluções modernas para transformar seu sorriso. Dos implantes dentários para reposição definitiva de dentes às próteses personalizadas que garantem conforto e estética, cuidamos de cada detalhe.
-                                </p>
-                            </div>
+                            <p>
+                                Na Clínica Santé oferecemos soluções modernas para transformar seu sorriso. Dos implantes dentários para reposição definitiva de dentes às próteses <br />personalizadas que garantem conforto e estética, cuidamos de cada detalhe.
+                            </p>
+
                         </div>
 
                         <div class="cards-services">
@@ -134,13 +127,16 @@ export default function Main() {
                     </div>
                 </div>
 
-                <div class="inovation-content">
-                    <div class="description-inovation">
-                        <div class="title-inovation">
-                            <div class="rectangle-main"></div>
+
+
+
+                <div className="inovation-content">
+                    <div className="description-inovation">
+                        <div className="title-inovation">
+                            <div className="rectangle-main"></div>
                             <h3>Inovação: Scanner Digital</h3>
                         </div>
-                        <div class="sub-title-main">
+                        <div className="sub-title-inovation">
                             <h6>Um novo padrão em conforto e precisão</h6>
                         </div>
 
@@ -153,9 +149,9 @@ export default function Main() {
                         </p>
                     </div>
 
-                    <div class="cards-inovation">
-                        <div class="card-main">
-                            <div class="text-card-inovation">
+                    <div className="cards-inovation">
+                        <div className="card-main-inovation">
+                            <div className="text-card-inovation">
                                 <h5>Método Tradicional</h5>
                                 <ul>
                                     <li>
@@ -174,14 +170,14 @@ export default function Main() {
                             </div>
 
                             <img
-                                class="image-inovation"
+                                className="image-inovation"
                                 src={PersonPain}
                                 alt=""
                             />
                         </div>
 
-                        <div class="card-main" id="card-two">
-                            <div class="text-card-inovation">
+                        <div className="card-main-inovation-two" id="card-two">
+                            <div className="text-card-inovation">
                                 <h5>Scanner Digital</h5>
                                 <ul>
                                     <li>
@@ -203,28 +199,33 @@ export default function Main() {
                     </div>
                 </div>
 
-                <div class="orthodontic-container">
-                    <div class="description-main">
-                        <div class="title-main">
-                            <div class="rectangle-main"></div>
+
+
+
+
+
+                <div className="orthodontic-container">
+                    <div className="description-main">
+                        <div className="title-main">
+                            <div className="rectangle-main"></div>
                             <h3>Aparelhos Ortodônticos</h3>
                         </div>
-                        <div class="sub-title-main">
+                        <div className="sub-title-main">
                             <h6>Soluções para melhorar seu Sorriso</h6>
                         </div>
 
                         <p>
                             Revolucionamos o processo ao adotar o scanner digital, tornando
                             os tratamentos mais precisos e confortáveis. Com essa
-                            tecnologia, eliminamos os <br /> desconfortos dos moldes tradicionais
+                            tecnologia, eliminamos os desconfortos dos moldes tradicionais
                             e aceleramos o fluxo de trabalho, garantindo resultados mais exatos
                             e eficientes.
                         </p>
                     </div>
 
-                    <div class="cards-orthodontic">
-                        <div class="card-main" id="card-orthodontic">
-                            <div class="text-card-orthodontic">
+                    <div className="cards-orthodontic">
+                        <div className="card-main" id="card-orthodontic">
+                            <div className="text-card-orthodontic">
                                 <h5>Aparelho Fixo</h5>
                                 <ul>
                                     <li>
@@ -244,38 +245,47 @@ export default function Main() {
                                 </ul>
                             </div>
 
-                            <img class={Smile} src="/images/smile.png" alt="" />
+                            <img src={Smile} alt="" />
                         </div>
 
-                        <div class="card-main" id="card-orthodontic-two">
-                            <div class="text-card-orthodontic-two">
+                        <div className="card-main" id="card-orthodontic-two">
+                            <div className="text-card-orthodontic-two">
                                 <h5>Alinhadores Invisíveis</h5>
-                                <ul>
-                                    <li>
-                                        Discreto e confortável – Feito de material transparente, quase imperceptível durante o uso
-                                    </li>
-                                    <li>
-                                        Menos consultas – O planejamento digital permite um acompanhamento mais espaçado e confortá
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li>
-                                        Removível – Pode ser retirado para alimentação e higiene bucal.
-                                    </li>
-                                    <li>
-                                        Correção gradual – Movimenta os dentes de forma progressiva sem necessidade de fios ou braquetes.
-                                    </li>
-                                </ul>
+
+                                <div className="ul-left">
+                                    <ul>
+                                        <li>
+                                            Discreto e confortável –  Feito de material transparente, quase imperceptível durante o uso
+                                        </li>
+                                        <li>
+                                            Menos consultas – O planejamento digital permite um acompanhamento mais espaçado e confortá
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <div className="ul-right">
+
+                                    <ul>
+                                        <li>
+                                            Removível – Pode ser retirado para alimentação e higiene bucal.
+                                        </li>
+                                        <li>
+                                            Correção gradual – Movimenta <br /> os dentes de forma progressiva sem necessidade de fios ou braquetes.
+                                        </li>
+                                    </ul>
+                                </div>
+
                             </div>
-                            <div class="images-aligner">
-                                <img
-                                    class={AlignerOne}
-                                    src="/images/aligner-wearing.png"
+                            <div className="images-aligner">
+                                <img className='aligner-one'
+                                    src={AlignerOne}
+
                                     alt=""
                                 />
-                                <img
-                                    class={AlignerTwo}
-                                    src="/images/aligner-invisalign.png"
+                                <img className='aligner-two'
+                                    src={AlignerTwo}
+
                                     alt=""
                                 />
                             </div>
@@ -283,13 +293,13 @@ export default function Main() {
                     </div>
                 </div>
 
-                <div class="anesthesia-container">
-                    <div class="description-main">
-                        <div class="title-main">
-                            <div class="rectangle-main"></div>
+                <div className="anesthesia-container">
+                    <div className="description-anesthesia">
+                        <div className="title-main">
+                            <div className="rectangle-main"></div>
                             <h3>Óxido Nitroso vs Anestesia Convencional</h3>
                         </div>
-                        <div class="sub-title-main">
+                        <div className="sub-title-main">
                             <h6>Soluções para melhorar seu Sorriso</h6>
                         </div>
 
@@ -298,9 +308,9 @@ export default function Main() {
                         </p>
                     </div>
 
-                    <div class="cards-anesthesia">
-                        <div class="card-main" id="card-anesthesia">
-                            <div class="text-card-anesthesia">
+                    <div className="cards-anesthesia">
+                        <div className="card-main" id="card-anesthesia">
+                            <div className="text-card-anesthesia">
                                 <h5>Óxido Nitroso</h5>
                                 <ul>
                                     <li>
@@ -314,38 +324,49 @@ export default function Main() {
                                     <li>
                                         Não causa sonolência prolongada. O paciente permanece acordado e  alerta durante todo o procedimento.
                                     </li>
-                                    <li class="li-right">
+                                    <li className="li-right">
                                         Seguro para crianças e adultos, pois é um Método  amplamente utilizado e recomendado por  especialistas em odontologia.
                                     </li>
                                 </ul>
                             </div>
 
-                            <img src="/images/nitrous-oxide.png" alt="" />
+                            <img src={NitrousOxide} alt="" />
                         </div>
 
-                        <div class="card-main" id="card-anesthesia-two">
-                            <div class="text-card-anesthesia-two">
+                        <div className="card-main" id="card-anesthesia-two">
+                            <div className="text-card-anesthesia-two">
                                 <h5>Anestesia Convencional</h5>
-                                <ul class="ul-left">
-                                    <li class="">
-                                        Pode causar dormência e  desconforto por horas, dificultando a alimentação e a fala.
-                                    </li>
-                                    <li class="li-left">
-                                        Recuperação mais lenta em comparação ao óxido nitroso. O paciente pode levar horas até sentir-se totalmente normal novamente.
-                                    </li>
-                                </ul>
-                                <ul class="ul-right">
-                                    <li>
-                                        Risco de reações adversas e efeitos colaterais. Algumas pessoas podem apresentar tontura, náusea ou até reações alérgicas.
-                                    </li>
-                                    <li>
-                                        Nem sempre é ideal para pacientes ansiosos. O medo da agulha e do procedimento pode causar estresse adicional em algumas pessoas.
-                                    </li>
-                                </ul>
+
+                                <div className="lists-anesthesia">
+                                    <ul className="ul-left">
+                                        <li className="li-left-two">
+                                            Pode causar dormência e  desconforto por horas, dificultando a alimentação e a fala.
+                                            </li>
+                                            <li className="li-left">
+                                                Recuperação mais lenta em comparação ao óxido nitroso. O paciente pode levar horas até sentir-se totalmente normal novamente.
+                                            </li>
+                                    </ul>
+                                    <ul className="ul-right">
+                                        <li>
+                                            Risco de reações adversas e efeitos colaterais. Algumas pessoas podem apresentar tontura, náusea ou até reações alérgicas.
+                                        </li>
+                                        <li>
+                                            Nem sempre é ideal para pacientes ansiosos. O medo da agulha e do procedimento pode causar estresse adicional em algumas pessoas.
+                                        </li>
+                                    </ul>
+                                </div>
+
                             </div>
+                            <img src={Anesthesia} alt="" />
 
 
                         </div>
+
+
+
+
+
+
                     </div>
                 </div>
 

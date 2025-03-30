@@ -86,7 +86,7 @@
 @media screen and (max-width:744px) {
 
     footer {
-        width: 100;
+        width:100%
 
     }
 
@@ -110,7 +110,7 @@
     }
 
     .footer-top {
-        width: 1215px;
+        width: 744px;
         height: 380px;
         display: flex;
         flex-direction: column;

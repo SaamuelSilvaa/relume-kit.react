@@ -60,7 +60,8 @@
      display: flex;
      gap: 24px;
      justify-content: space-between;
-align-items: center;
+     align-items: center;
+
  }
 
 
@@ -70,7 +71,7 @@ align-items: center;
      font-weight: 600;
      color: var(--eerie);
      gap: 12px;
-     padding-left:8px ;
+     padding-left: 8px;
      padding-right: 8px;
 
  }
@@ -100,5 +101,36 @@ align-items: center;
      font-size: var(--p-regular);
      font-weight: var(--weight-semibold);
      white-space: nowrap;
+
+ }
+
+ .menu-hamburger {
+     background: transparent;
+     border: none;
+     cursor: pointer;
+     display: none;
+
+ }
+
+ @media screen and (max-width:744px) {
+
+     .header-content{
+
+         padding-left: 42px;
+         padding-right: 42px;
+     }
+
+     .menu-hamburger {
+        display: block;
+     }
+
+
+     .nav-contact {
+         display: none;
+     }
+
+     .info-clinic {
+         display: none;
+     }
 
  }
