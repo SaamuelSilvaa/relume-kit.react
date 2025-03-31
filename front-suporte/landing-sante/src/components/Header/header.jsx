@@ -5,7 +5,7 @@ import LogoClinic from '../../assets/icons/logo-sante.svg'
 import NameClinic from '../../assets/icons/name-sante.svg'
 import IconWpp from '../../assets/icons/icon-wpp.svg'
 import MenuHamburger from '../../assets/icons/menu-hamburguer.svg'
-
+import Close from '../../assets/icons/close.svg'
 
 
 export default function Header() {
@@ -50,13 +50,16 @@ export default function Header() {
                 <p>Agendar pelo Whatsapp</p>
               </a>
             </button>
-           
-              <button className='menu-hamburger'>
-                <img src={MenuHamburger} alt="" />
-              </button>
-            
+
+
+
           </div>
-          
+          <div className="menu-hamburger">
+            <button className=''>
+              <img src={MenuHamburger} alt="" />
+            </button>
+          </div>
+
         </div>
       </div>
 

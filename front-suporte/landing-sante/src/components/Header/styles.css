@@ -112,18 +112,7 @@
 
  }
 
- @media screen and (max-width:744px) {
-
-     .header-content{
-
-         padding-left: 42px;
-         padding-right: 42px;
-     }
-
-     .menu-hamburger {
-        display: block;
-     }
-
+ @media (max-width: 744px) {
 
      .nav-contact {
          display: none;
@@ -132,5 +121,25 @@
      .info-clinic {
          display: none;
      }
+
+     .menu-hamburger {
+        display: block;
+     }
+     .menu-hamburger button {
+         justify-content: flex-end;
+         background-color: transparent;
+         cursor:pointer;
+         outline: none;
+         -webkit-tap-highlight-color: transparent;
+
+     }
+
+     .nav-clinic {
+         justify-content: space-between;
+         padding-left: 40px;
+         padding-right: 42px;
+
+     }
+
 
  }

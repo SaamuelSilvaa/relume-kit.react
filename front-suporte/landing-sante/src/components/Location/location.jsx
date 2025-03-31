@@ -8,7 +8,7 @@ export default function Location() {
     return (
 
         <section>
-            <div className="divider">
+            <div className="divider-location">
                 <img src={GoldDivider} alt="Divisória de ouro" />
             </div>
             <div className="location">

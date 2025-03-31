@@ -1,15 +1,8 @@
-.main-container {
-    padding-left: 190px;
-    padding-right: 190px;
-}
-
-
-
-.divider {
+.divider-services {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 30px;
+    padding: 40px 189.5px;
 }
 
 
@@ -49,6 +42,24 @@
 
 
 .rectangle {
+    width: 8px;
+    height: 38px;
+    background-color: var(--asparagus);
+}
+
+.rectangle-anesthesia {
+    width: 8px;
+    height: 38px;
+    background-color: var(--asparagus);
+}
+
+.rectangle-inovation {
+    width: 8px;
+    height: 38px;
+    background-color: var(--asparagus);
+}
+
+.rectangle-services {
     width: 8px;
     height: 38px;
     background-color: var(--asparagus);
@@ -229,14 +240,15 @@
     font-family: var(--secondary-font);
     font-size: var(--p-regular);
     font-weight: var(--weight-regular);
-    
+
 }
+
 .card-main-inovation li {
 
     font-family: var(--secondary-font);
     font-size: var(--p-regular);
     font-weight: var(--weight-regular);
-    
+
 }
 
 .card-main-inovation h5 {
@@ -244,14 +256,15 @@
     font-size: var(--h5-size);
     font-weight: var(--weight-medium);
     text-align: center;
-    
+
 }
+
 .card-main-inovation-two h5 {
     font-family: var(--primary-font);
     font-size: var(--h5-size);
     font-weight: var(--weight-medium);
     text-align: center;
-    
+
 }
 
 
@@ -266,6 +279,7 @@
     position: relative;
     box-shadow: 0px 4px 4px rgba(50, 50, 50, 0.2);
 }
+
 .card-main-inovation {
     padding-bottom: 40px;
     width: 507px;
@@ -276,6 +290,7 @@
     position: relative;
     box-shadow: 0px 4px 4px rgba(50, 50, 50, 0.2);
 }
+
 .card-main {
     padding-bottom: 40px;
     width: 507px;
@@ -293,15 +308,21 @@
     flex-direction: column;
     align-items: center;
     padding: 40px 147px;
-    
-    
+
+
+}
+
+.rectangle-orthodontic {
+    width: 8px;
+    height: 38px;
+    background-color: var(--asparagus);
 }
 
 .cards-orthodontic {
     height: 456px;
     display: flex;
     gap: 46px;
-    
+
 }
 
 #card-orthodontic {
@@ -342,7 +363,7 @@
 
 
 
-.rectangle-main {
+.rectangle-anesthesia {
     width: 8px;
     height: 38px;
     background-color: var(--asparagus);
@@ -370,30 +391,30 @@
 }
 
 .main-container h6 {
-    
+
     font-family: var(--primary-font);
     font-size: 24px;
     font-weight: var(--weight-medium);
     color: var(--eerie);
-    
+
 }
 
 .orthodontic-container h6 {
-    
+
     font-family: var(--primary-font);
     font-size: 24px;
     font-weight: var(--weight-medium);
     color: var(--eerie);
-    
+
 }
 
 .anesthesia-container h6 {
-    
+
     font-family: var(--primary-font);
     font-size: 24px;
     font-weight: var(--weight-medium);
     color: var(--eerie);
-    
+
 }
 
 .main-container p {
@@ -429,7 +450,7 @@
     font-size: var(--h5-size);
     font-weight: var(--weight-medium);
     text-align: center;
-    
+
 }
 
 .text-card-inovation {
@@ -443,7 +464,7 @@
     font-family: var(--secondary-font);
     font-size: var(--p-regular);
     font-weight: var(--weight-regular);
-    
+
 }
 
 .text-card-inovation ul {
@@ -459,20 +480,20 @@
 
 
 .image-inovation {
-    
+
     position: absolute;
     top: 214px;
     right: 36px;
     bottom: 32px;
     left: 350px;
-    
+
 }
 
 #card-two {
-    
+
     border: 4px solid var(--asparagus);
     background-color: #CCE5B233;
-    
+
 }
 
 #card-two img {
@@ -488,11 +509,11 @@
     width: 325px;
     height: 180px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .aligner-one {
-    
+
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px
 }
@@ -505,49 +526,37 @@
 .img-smile {
     width: 325px;
     height: 176px;
-    
+
 }
 
 .text-card-orthodontic ul {
     display: flex;
     padding: 12px 20px 0 20px;
     gap: 20px;
-    
+
 }
 
 .text-card-orthodontic-two ul {
     display: flex;
     padding: 12px 20px 0 20px;
     gap: 20px;
-    
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .description-anesthesia {
     padding: 0px 150px;
+
+
 }
 
-
-.title-main {
+.title-orthodontic {
     display: flex;
     gap: 8px;
     align-items: center;
 }
 
-.sub-title-main {
+.sub-title-orthodontic {
     padding-bottom: 16px;
     font-family: var(--secondary-font);
     font-size: var(--p-regular);
@@ -556,6 +565,17 @@
 }
 
 
+.title-anesthesia {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sub-title-anesthesia {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
 
 .cards-anesthesia {
     height: 380px;
@@ -610,3 +630,462 @@
     left: 6px;
 }
 
+.line-break-inovation-card {
+    display: none;
+}
+
+@media screen and (max-width:744px) {
+
+    .main-content {}
+
+    .rectangle {
+        width: 4.5px;
+        height: 21px;
+    }
+
+    .line-break-services {
+        display: none;
+    }
+
+    .divider-services {
+        padding: 18px 40px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services-clinic {
+        height: 329px;
+    }
+
+    .title-services {
+        gap: 4.5px;
+    }
+
+    .title-services h3 {
+        font-size: 24px;
+    }
+
+    .description-services {
+        justify-content: center;
+        padding: 45px 81px;
+
+    }
+
+    .description-services p {
+        font-size: 12px;
+    }
+
+    .services {
+        gap: 24px;
+    }
+
+    .cards-services {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 13.20px;
+        height: 226px;
+    }
+
+    .cards-one {
+        gap: 14px;
+    }
+
+    .cards-two {
+        gap: 14px;
+    }
+
+
+
+    .card-br {
+        width: 106.5px;
+        height: 106.5px;
+        justify-content: center;
+        padding-bottom: 16.50px;
+        align-items: center;
+        display: flex;
+        gap: 9.7px;
+
+
+    }
+
+    .card-br img {
+        width: 100%;
+        height: 44px;
+        justify-items: center;
+        align-content: center;
+        padding-left: 8px;
+    }
+
+    .card-br p {
+        justify-content: center;
+        font-size: 8.5px;
+        align-items: center;
+    }
+
+
+    .card {
+        width: 106.5px;
+        height: 106.5px;
+        justify-content: center;
+        padding-bottom: 16.50px;
+        align-items: center;
+        display: flex;
+        gap: 9.7px;
+    }
+
+
+    .card img {
+        width: 100%;
+        height: 44px;
+        justify-items: center;
+        align-content: center;
+        padding-left: 8px;
+    }
+
+    .card p {
+
+        font-size: 9px;
+
+    }
+
+
+
+
+    .inovation-content {
+        gap: 32px;
+        padding: 45px 81px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description-inovation {
+        justify-content: center;
+        gap: 8.8px;
+        width: 100%;
+        padding: 45px 0;
+    }
+
+    .rectangle-ivovation {
+        width: 4.5px;
+        height: 21px;
+    }
+
+    .title-inovation {
+        gap: 4.5px;
+    }
+
+    .title-inovation h3 {
+        font-size: 22px;
+    }
+
+    .sub-title-inovation h6 {
+        font-size: 16px;
+    }
+
+    .description-inovation p {
+        font-size: 12px;
+    }
+
+    .cards-inovation {
+        height: 198px;
+        gap: 26px;
+    }
+
+    .cards-inovation img {
+        width: 62.64px;
+        height: 62.64px;
+    }
+
+    .card-main-inovation {
+        width: 279px;
+        height: 198px;
+        padding: 13px 6px;
+        align-items: flex-start;
+
+    }
+
+    .card-main-inovation-two {
+        width: 279px;
+        height: 198px;
+        padding: 13px 6px;
+    }
+
+    .text-card-inovation h5 {
+        font-size: 16px;
+    }
+
+    .text-card-inovation li {
+        font-size: 12px;
+    }
+
+    .text-card-inovation ul {
+        width: 195px;
+        height: 120px;
+        gap: 8px;
+        align-items: flex-start;
+        display: flex;
+    }
+
+    .card-main-inovation img {
+        position: absolute;
+        left: 210px;
+        top: 110px;
+
+    }
+
+    #card-two img {
+        position: absolute;
+        left: 206px;
+        top: 110px;
+
+    }
+
+    .text-card-inovation {
+        gap: 13.30px;
+    }
+
+    .line-break-inovation-card {
+        display: block;
+    }
+
+    .line-break-inovation {
+        display: none;
+    }
+
+
+    .orthodontic-container {
+        gap: 32px;
+        padding: 0 81px 45px 81px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .rectangle-orthodontic {
+        width: 4.5px;
+        height: 21px;
+    }
+
+    .title-orthodontic {
+        gap: 4.5px;
+    }
+
+    .title-orthodontic h3 {
+        font-size: 22px;
+    }
+
+    .sub-title-orthodontic h6 {
+        font-size: 16px;
+    }
+
+    .description-orthodontic p {
+        font-size: 12px;
+    }
+
+    .description-orthodontic {
+        justify-content: center;
+        gap: 8.8px;
+
+    }
+
+    .cards-orthodontic {
+        height: 252px;
+        gap: 26px;
+    }
+
+    .text-card-orthodontic h5 {
+        font-size: 18px;
+    }
+
+    .text-card-orthodontic li {
+        font-size: 8px;
+    }
+
+    #card-orthodontic {
+        gap: 7px;
+        width: 280px;
+        height: 252px;
+    }
+
+    #card-orthodontic img {
+        height: 80px;
+    }
+
+    .text-card-orthodontic {
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: 295px;
+        padding: 12px 6px;
+
+    }
+
+    .text-card-orthodontic-two {
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: 295px;
+        padding: 12px 6px;
+
+    }
+
+    .text-card-orthodontic ul {
+
+        padding-right: 5px;
+        gap: 5px;
+
+    }
+
+
+
+
+
+    .text-card-orthodontic-two h5 {
+        font-size: 18px;
+    }
+
+    .text-card-orthodontic-two li {
+        font-size: 8px;
+    }
+
+    #card-orthodontic-two {
+        gap: 7px;
+        width: 280px;
+        height: 252px;
+    }
+
+    .aligner-one {
+        width: 80px;
+        height: 80px;
+    }
+
+    .aligner-two {
+        width: 80px;
+        height: 80px;
+    }
+
+    .line-break-aligner {
+        display: none;
+    }
+
+
+
+
+
+
+    .anesthesia-container {
+        height: 433px;
+        gap: 32px;
+    }
+
+    .rectangle-anesthesia {
+        width: 4.5px;
+        height: 21px;
+    }
+
+    .title-anesthesia {
+        gap: 4.5px;
+    }
+
+
+
+    .title-anesthesia h3 {
+        font-size: 22px;
+    }
+
+    .sub-title-anesthesia h6 {
+        font-size: 16px;
+
+    }
+
+    .description-anesthesia p {
+        font-size: 10px;
+
+    }
+
+    .description-anesthesia {
+        justify-content: center;
+        padding: 0px 81px;
+
+    }
+
+    .cards-anesthesia {
+        gap: 26px;
+        height: 280px;
+        margin: 0;
+    }
+
+    #card-anesthesia {
+        height: 280px;
+        width: 280px;
+        margin: 0;
+        gap: 20px;
+        padding: 9.5px 11px;
+
+    }
+
+    #card-anesthesia-two {
+        height: 280px;
+        width: 280px;
+        gap: 20px;
+        padding: 9.5px 11px;
+    }
+
+
+    .text-card-anesthesia h5 {
+        font-size: 16px;
+    }
+
+    .text-card-anesthesia li {
+        font-size: 8px;
+    }
+
+    .text-card-anesthesia-two h5 {
+        font-size: 16px;
+    }
+
+    .text-card-anesthesia-two li {
+        font-size: 8px;
+    }
+
+    .text-card-anesthesia ul {
+        width: 260px;
+    }
+
+    .text-card-anesthesia-two ul {
+        width: 270px;
+
+    }
+
+    #card-anesthesia img {
+        height: 100px;
+    }
+
+    #card-anesthesia-two img {
+        height: 90px;
+    }
+
+    .lists-anesthesia {
+        display: grid;
+        justify-content: center;
+    align-items: center;
+    }
+
+  .li-left {
+    position: relative;
+    left: 20px;
+  }
+
+.li-left-two {
+
+position: relative;
+left: 5px;
+}
+
+
+
+
+
+}

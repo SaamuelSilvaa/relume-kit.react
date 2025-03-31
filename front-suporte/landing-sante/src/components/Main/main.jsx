@@ -28,8 +28,8 @@ export default function Main() {
         <main>
 
             <div className="main-content">
-                <div className="divider">
-                    <img className='divider' src={GoldDivider} alt="Divisoria de ouro" />
+                <div className="divider-services">
+                    <img className='divider-services' src={GoldDivider} alt="Divisoria de ouro" />
 
                 </div>
                 <div class="services-clinic">
@@ -37,12 +37,12 @@ export default function Main() {
                     <div class="services">
                         <div class="description-services">
                             <div class="title-services">
-                                <div class="rectangle"></div>
+                                <div class="rectangle-services"></div>
                                 <h3>Nossos serviços</h3>
                             </div>
 
                             <p>
-                                Na Clínica Santé oferecemos soluções modernas para transformar seu sorriso. Dos implantes dentários para reposição definitiva de dentes às próteses <br />personalizadas que garantem conforto e estética, cuidamos de cada detalhe.
+                                Na Clínica Santé oferecemos soluções modernas para transformar seu sorriso. Dos implantes dentários para reposição definitiva de dentes às próteses <br className='line-break-services' />personalizadas que garantem conforto e estética, cuidamos de cada detalhe.
                             </p>
 
                         </div>
@@ -133,7 +133,7 @@ export default function Main() {
                 <div className="inovation-content">
                     <div className="description-inovation">
                         <div className="title-inovation">
-                            <div className="rectangle-main"></div>
+                            <div className="rectangle-inovation"></div>
                             <h3>Inovação: Scanner Digital</h3>
                         </div>
                         <div className="sub-title-inovation">
@@ -143,7 +143,7 @@ export default function Main() {
                         <p>
                             Revolucionamos o processo ao adotar o scanner digital, tornando
                             os tratamentos mais precisos e confortáveis. Com essa
-                            tecnologia, eliminamos os <br /> desconfortos dos moldes tradicionais
+                            tecnologia, eliminamos os <br className='line-break-inovation' /> desconfortos dos moldes tradicionais
                             e aceleramos o fluxo de trabalho, garantindo resultados mais exatos
                             e eficientes.
                         </p>
@@ -155,7 +155,7 @@ export default function Main() {
                                 <h5>Método Tradicional</h5>
                                 <ul>
                                     <li>
-                                        Materiais desconfortáveis que podem causar náusea e
+                                        Materiais desconfortáveis que podem causar náusea e <br className='line-break-inovation-card' />
                                         incômodo.
                                     </li>
                                     <li>
@@ -205,12 +205,12 @@ export default function Main() {
 
 
                 <div className="orthodontic-container">
-                    <div className="description-main">
-                        <div className="title-main">
-                            <div className="rectangle-main"></div>
+                    <div className="description-orthodontic">
+                        <div className="title-orthodontic">
+                            <div className="rectangle-orthodontic"></div>
                             <h3>Aparelhos Ortodônticos</h3>
                         </div>
-                        <div className="sub-title-main">
+                        <div className="sub-title-orthodontic">
                             <h6>Soluções para melhorar seu Sorriso</h6>
                         </div>
 
@@ -271,7 +271,7 @@ export default function Main() {
                                             Removível – Pode ser retirado para alimentação e higiene bucal.
                                         </li>
                                         <li>
-                                            Correção gradual – Movimenta <br /> os dentes de forma progressiva sem necessidade de fios ou braquetes.
+                                            Correção gradual – Movimenta <br className='line-break-' /> os dentes de forma progressiva sem necessidade de fios ou braquetes.
                                         </li>
                                     </ul>
                                 </div>
@@ -295,17 +295,18 @@ export default function Main() {
 
                 <div className="anesthesia-container">
                     <div className="description-anesthesia">
-                        <div className="title-main">
-                            <div className="rectangle-main"></div>
+                        
+                        <div className="title-anesthesia">
+                            <div className="rectangle-anesthesia"></div>
                             <h3>Óxido Nitroso vs Anestesia Convencional</h3>
                         </div>
-                        <div className="sub-title-main">
+                        <div className="sub-title-anesthesia">
                             <h6>Soluções para melhorar seu Sorriso</h6>
-                        </div>
 
                         <p>
                             O óxido nitroso é uma solução moderna para tornar os procedimentos odontológicos mais confortáveis. Comparado às anestesias tradicionais, ele reduz a ansiedade e proporciona uma recuperação imediata.
                         </p>
+                        </div>
                     </div>
 
                     <div className="cards-anesthesia">
@@ -314,7 +315,7 @@ export default function Main() {
                                 <h5>Óxido Nitroso</h5>
                                 <ul>
                                     <li>
-                                        Reduz a ansiedade e promove relaxamento imediato, proporcionando uma experiência mais tranquila.
+                                        Reduz a ansiedade e promoverelaxamento imediato, proporcionando uma experiência mais tranquila.
                                     </li>
                                     <li>
                                         O efeito desaparece em poucos minutos, portanto a pessoa pode retomar suas atividades normais sem restrições.
@@ -347,10 +348,10 @@ export default function Main() {
                                             </li>
                                     </ul>
                                     <ul className="ul-right">
-                                        <li>
+                                        <li className='li-right'>
                                             Risco de reações adversas e efeitos colaterais. Algumas pessoas podem apresentar tontura, náusea ou até reações alérgicas.
                                         </li>
-                                        <li>
+                                        <li className='li-right-two'>
                                             Nem sempre é ideal para pacientes ansiosos. O medo da agulha e do procedimento pode causar estresse adicional em algumas pessoas.
                                         </li>
                                     </ul>
