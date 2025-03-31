@@ -636,9 +636,9 @@
 
 @media screen and (max-width:744px) {
 
-    .main-content {}
+    
 
-    .rectangle {
+    .rectangle-services {
         width: 4.5px;
         height: 21px;
     }
@@ -696,8 +696,6 @@
         gap: 14px;
     }
 
-
-
     .card-br {
         width: 106.5px;
         height: 106.5px;
@@ -706,7 +704,6 @@
         align-items: center;
         display: flex;
         gap: 9.7px;
-
 
     }
 
@@ -724,7 +721,6 @@
         align-items: center;
     }
 
-
     .card {
         width: 106.5px;
         height: 106.5px;
@@ -734,7 +730,6 @@
         display: flex;
         gap: 9.7px;
     }
-
 
     .card img {
         width: 100%;
@@ -750,9 +745,6 @@
 
     }
 
-
-
-
     .inovation-content {
         gap: 32px;
         padding: 45px 81px;
@@ -767,7 +759,7 @@
         padding: 45px 0;
     }
 
-    .rectangle-ivovation {
+    .rectangle-inovation {
         width: 4.5px;
         height: 21px;
     }

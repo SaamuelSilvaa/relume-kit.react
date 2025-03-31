@@ -96,3 +96,15 @@ iframe {
     border-radius: 12px;
 
 }
+
+@media screen and (max-width:744px) {
+
+
+    .divider-services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 189.5px;
+    }
+
+}
