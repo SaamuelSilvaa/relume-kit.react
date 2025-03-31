@@ -20,7 +20,7 @@ export default function Footer() {
                 <div className="info-footer">
                     <div className="address-footer">
                         <p id="address-road">
-                            Estr. de Itapecerica da Serra, 1770
+                            Estr. de Itapecerica da Serra, 1770 <br className='line-break-footer' />
                             Vila Prel, São Paulo / SP
                         </p>
                       <br />

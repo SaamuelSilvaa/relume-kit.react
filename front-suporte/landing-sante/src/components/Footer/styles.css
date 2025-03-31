@@ -83,76 +83,45 @@
     font-weight: 400;
 }
 
+
+
 @media screen and (max-width:744px) {
 
-    footer {
-        width:100%
+    .footer-top {
+        height: 243px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 30px;
+        gap: 32px;
+    }
+
+    .footer-bottom {
+        height: 43px;
+        width: 100%;
+        justify-content: space-between;
+        padding: 12px 20px;
+
+    }
+
+    .footer-bottom p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .info-footer {
+        gap: 20px;
+
+    }
+
+    #addres-road {
+        width: 236px;
 
     }
 
     .line {
-        height: 100px;
-    }
-
-    .contact-footer {
-        font-size: 25px;
-    }
-
-    .address-footer {
-        font-size: 25px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .info-footer {
-        padding-bottom: 120px;
-
-    }
-
-    .footer-top {
-        width: 744px;
-        height: 380px;
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-
-    }
-
-    .footer-bottom {
-        height: 70px;
-        display: flex;
-        justify-content: space-between;
-        padding: 12px 20px;
-        gap: 99px;
-        font-size: 25px;
-
-    }
-
-    .footer-top-logo {
-        display: flex;
-        align-items: center;
-    }
-
-    #logo-sante-footer {
-        width: 100px;
-        height: 100px;
-    }
-
-    #name-sante-footer {
-        width: 250px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contact-footer img {
-        width: 25px;
-
-    }
-
-    #address-road {
-        height: 80px;
+        width: 1px;
+        height: 77px;
     }
 
 }
