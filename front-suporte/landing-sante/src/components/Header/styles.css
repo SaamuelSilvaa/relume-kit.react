@@ -146,3 +146,15 @@
 
 
  }
+
+ @media screen and (max-width:430px) {
+    
+    .nav-clinic {
+        padding-left: 20px;
+        padding-right: 21px;
+        justify-content: space-between;
+
+    }
+
+
+ }

@@ -66,25 +66,56 @@
 
 @media screen and (max-width:744px) {
 
-.banner {
-width: 100%;
-height: 218px;    
+    .banner {
+        width: 100%;
+        height: 218px;
+    }
+
+    .banner h1 {
+        font-size: 48px;
+    }
+
+    .acessibilidade p {
+        font-size: 8px;
+        width: 127px;
+        height: 37px;
+    }
+
+    .acessibilidade img {
+        display: none;
+    }
 }
 
-.banner h1 {
-    font-size: 48px;
+@media screen and (max-width:430px) {
+
+    .banner {
+        width: 100%;
+        height: 216px;
+        
+    }
+
+    .banner h1 {
+        font-size: 28.5px;
+    }
+
+    .banner p {
+        font-size: 13.5px;
+    }
+
+    .acessibilidade p {
+        width: 115px;
+        font-size: 8px;
+    }
+
+    .acessibilidade {
+        padding: 0;
+    }
+
+    .content {
+        justify-content: center;
+    }
+
+
+
+
 }
-.acessibilidade p {
-    font-size: 8px;
-    width: 127px;
-    height: 37px;
-}
-
-.acessibilidade img {
-     display: none;
-}
-}
-
-
-
-
