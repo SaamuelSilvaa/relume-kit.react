@@ -7,7 +7,7 @@ import ClinicalEntrance from '../../assets/icons/clinical-entrance.png'
 export default function AboutMe() {
     return (
 
-        <section class="about-me">
+        <section class="about-me" id='about-me'>
             <div class="about-container">
                 <div class="description-about">
 

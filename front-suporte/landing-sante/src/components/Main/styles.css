@@ -1,3 +1,11 @@
+main {
+    padding: 0 190px 0 190px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
 .divider-services {
     display: flex;
     align-items: center;
@@ -5,28 +13,21 @@
     padding: 40px 189.5px;
 }
 
-
-.services-clinic {
-
-    height: 584px;
-
-}
-
 .services {
     display: flex;
     flex-direction: column;
     gap: 48px;
-
+    padding: 0 190px 0 190px;
+    width: 100%;
 }
 
 .description-services {
-    height: 102px;
+
     width: 100%;
     display: flex;
     gap: 16px;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 146px;
+    padding: 0 190px;
 
 }
 
@@ -35,7 +36,6 @@
     font-size: 15.5px;
     font-weight: 500;
     color: var(--eerie);
-    letter-spacing: -2%;
     line-height: 100%;
 }
 
@@ -70,6 +70,7 @@
     align-items: center;
     gap: 8px;
 
+
 }
 
 .title-services h3 {
@@ -97,7 +98,7 @@
     gap: 24px;
     flex-direction: column;
     align-items: center;
-
+    padding: 0 189.5px;
 }
 
 .card:hover {
@@ -188,7 +189,7 @@
 
 
 .inovation-content {
-    padding: 40px 145px;
+    padding: 45px 190px;
     display: flex;
     gap: 60px;
     flex-direction: column;
@@ -198,19 +199,17 @@
 
 .description-inovation {
 
-    height: 139px;
     display: flex;
     flex-direction: column;
     gap: 8px;
     width: 100%;
-
+    padding: 0 192px;
 }
 
 .description-inovation p {
     font-family: var(--secondary-font);
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: -2%;
 }
 
 .title-inovation {
@@ -307,10 +306,45 @@
     gap: 60px;
     flex-direction: column;
     align-items: center;
-    padding: 40px 147px;
+    padding: 0px 190px;
 
 
 }
+
+.description-orthodontic {
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    padding: 0 191px;
+
+}
+
+.description-orthodontic p {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.title-orthodontic {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-family: var(--primary-font);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sub-title-orthodontic {
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0%;
+}
+
+
+
 
 .rectangle-orthodontic {
     width: 8px;
@@ -358,8 +392,39 @@
     gap: 60px;
     flex-direction: column;
     align-items: center;
+    padding: 45px 190px;
 }
 
+.description-anesthesia {
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    padding: 0 191px;
+}
+
+.description-anesthesia p {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.title-anesthesia {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-family: var(--primary-font);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sub-title-anesthesia {
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0%;
+}
 
 
 
@@ -543,40 +608,6 @@
 
 }
 
-
-.description-anesthesia {
-    padding: 0px 150px;
-
-
-}
-
-.title-orthodontic {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-}
-
-.sub-title-orthodontic {
-    padding-bottom: 16px;
-    font-family: var(--secondary-font);
-    font-size: var(--p-regular);
-    font-weight: var(--weight-medium);
-    width: 100%;
-}
-
-
-.title-anesthesia {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.sub-title-anesthesia {
-    display: flex;
-    gap: 16px;
-    flex-direction: column;
-}
-
 .cards-anesthesia {
     height: 380px;
     display: flex;
@@ -636,7 +667,7 @@
 
 @media screen and (max-width:744px) {
 
-    
+
 
     .rectangle-services {
         width: 4.5px;
@@ -648,10 +679,13 @@
     }
 
     .divider-services {
-        padding: 18px 40px;
         width: 100%;
         align-items: center;
         justify-content: center;
+    }
+
+    .divider-services img {
+        width: 585px;
     }
 
     .services-clinic {
@@ -668,7 +702,6 @@
 
     .description-services {
         justify-content: center;
-        padding: 45px 81px;
 
     }
 
@@ -747,16 +780,12 @@
 
     .inovation-content {
         gap: 32px;
-        padding: 45px 81px;
         justify-content: center;
         align-items: center;
     }
 
     .description-inovation {
         justify-content: center;
-        gap: 8.8px;
-        width: 100%;
-        padding: 45px 0;
     }
 
     .rectangle-inovation {
@@ -849,7 +878,6 @@
 
     .orthodontic-container {
         gap: 32px;
-        padding: 0 81px 45px 81px;
         justify-content: center;
         align-items: center;
 
@@ -879,7 +907,6 @@
     .description-orthodontic {
         justify-content: center;
         gap: 8.8px;
-
     }
 
     .cards-orthodontic {
@@ -930,10 +957,6 @@
 
     }
 
-
-
-
-
     .text-card-orthodontic-two h5 {
         font-size: 18px;
     }
@@ -964,12 +987,9 @@
 
 
 
-
-
-
     .anesthesia-container {
-        height: 433px;
         gap: 32px;
+        
     }
 
     .rectangle-anesthesia {
@@ -999,7 +1019,6 @@
 
     .description-anesthesia {
         justify-content: center;
-        padding: 0px 81px;
 
     }
 
@@ -1062,19 +1081,19 @@
     .lists-anesthesia {
         display: grid;
         justify-content: center;
-    align-items: center;
+        align-items: center;
     }
 
-  .li-left {
-    position: relative;
-    left: 20px;
-  }
+    .li-left {
+        position: relative;
+        left: 20px;
+    }
 
-.li-left-two {
+    .li-left-two {
 
-position: relative;
-left: 5px;
-}
+        position: relative;
+        left: 5px;
+    }
 
 
 

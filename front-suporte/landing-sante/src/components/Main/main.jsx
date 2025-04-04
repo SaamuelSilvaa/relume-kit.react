@@ -25,17 +25,18 @@ export default function Main() {
     return (
 
 
-        <main>
+        <main id='main'>
 
             <div className="main-content">
                 <div className="divider-services">
-                    <img className='divider-services' src={GoldDivider} alt="Divisoria de ouro" />
+                    <img className='' src={GoldDivider} alt="Divisoria de ouro" />
 
                 </div>
                 <div class="services-clinic">
 
                     <div class="services">
                         <div class="description-services">
+                            
                             <div class="title-services">
                                 <div class="rectangle-services"></div>
                                 <h3>Nossos serviços</h3>

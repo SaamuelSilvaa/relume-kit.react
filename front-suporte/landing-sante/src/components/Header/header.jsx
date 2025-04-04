@@ -11,7 +11,7 @@ import Close from '../../assets/icons/close.svg'
 export default function Header() {
   return (
 
-    <header>
+    <header id='home'>
       <div className="header-content">
         <div class="info-clinic">
           <div class="address">
@@ -36,11 +36,11 @@ export default function Header() {
 
           <div class="nav-contact">
             <nav class="navigation">
-              <a href="">Início</a>
-              <a href="">Procedimentos</a>
-              <a href="">Sobre Nós</a>
+              <a href="#home">Início</a>
+              <a href="#main">Procedimentos</a>
+              <a href="#about-me">Sobre Nós</a>
               <a href="">Nosso Espaço</a>
-              <a href="">Localização</a>
+              <a href="#location">Localização</a>
             </nav>
 
 

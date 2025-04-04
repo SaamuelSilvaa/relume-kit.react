@@ -7,7 +7,7 @@ import IconMaps from '../../assets/icons/icon-google-maps.svg'
 export default function Location() {
     return (
 
-        <section>
+        <section id='location'>
             <div className="divider-location">
                 <img src={GoldDivider} alt="Divisória de ouro" />
             </div>
