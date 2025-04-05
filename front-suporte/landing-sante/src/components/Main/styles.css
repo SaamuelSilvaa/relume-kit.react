@@ -98,7 +98,7 @@ main {
     gap: 24px;
     flex-direction: column;
     align-items: center;
-    padding: 0 189.5px;
+    padding: 0 190px;
 }
 
 .card:hover {
@@ -203,7 +203,7 @@ main {
     flex-direction: column;
     gap: 8px;
     width: 100%;
-    padding: 0 192px;
+    padding: 0 190px;
 }
 
 .description-inovation p {
@@ -989,7 +989,7 @@ main {
 
     .anesthesia-container {
         gap: 32px;
-        
+
     }
 
     .rectangle-anesthesia {
@@ -1094,6 +1094,299 @@ main {
         position: relative;
         left: 5px;
     }
+
+}
+
+@media screen and (max-width:430px) {
+
+
+
+    .services-clinic {
+        height: 212px;
+    }
+
+
+    .rectangle-services {
+        width: 3px;
+        height: 13px;
+    }
+
+    .title-services h3 {
+        font-size: 16px;
+    }
+
+    .title-services {
+        gap: 3px;
+    }
+
+    .description-services p {
+        font-size: 10px;
+    }
+
+    .description-services {
+        justify-content: center;
+    }
+
+    .divider-services {
+        padding: 32px 40.5px;
+    }
+
+    .divider-services img {
+        width: 350px;
+    }
+
+    .services {
+        gap: 16px;
+    }
+
+    .cards-services {
+        gap: 8px;
+        height: 135px;
+    }
+
+    .cards-one {
+        gap: 8px;
+
+    }
+
+    .cards-two {
+        gap: 8px;
+
+    }
+
+    .card-br {
+        width: 63.5px;
+        height: 63.5px;
+        padding-bottom: 20px;
+        gap: 8px;
+    }
+
+    .card {
+        width: 63.5px;
+        height: 63.5px;
+        gap: 8px;
+    }
+
+    .card-br img {
+        width: 100%;
+        height: 26px;
+
+    }
+
+    .card img {
+        width: 100%;
+        height: 26px;
+
+    }
+
+    .card p {
+        font-size: 8px;
+
+    }
+
+    #p-br {
+        text-wrap: unset;
+    }
+
+    .card-br p {
+        font-size: 8px;
+        white-space: normal;
+        width: 70px;
+        height: 20px;
+
+    }
+
+
+
+
+
+
+    .line-break-inovation {
+        display: none;
+    }
+
+    .description-inovation {
+        width: 100%;
+        gap: 3px;
+    }
+
+    .inovation-content {
+        gap: 16px;
+    }
+
+    .rectangle-inovation {
+        width: 3px;
+        height: 13px;
+    }
+
+    .title-inovation h3 {
+        font-size: 16px;
+    }
+
+    .sub-title-inovation h6 {
+        font-size: 14px;
+    }
+
+    .description-inovation p {
+        font-size: 10px;
+    }
+
+    .cards-inovation {
+        gap: 16px;
+        padding: 0 40px;
+    }
+
+    .cards-inovation img {
+        display: none;
+    }
+
+    .card-main-inovation {
+        width: 165.5px;
+        height: 171px;
+        gap: 15px;
+    }
+
+    .card-main-inovation-two {
+        width: 165.5px;
+        height: 171px;
+    }
+
+    .text-card-inovation {
+        gap: 8px;
+    }
+
+    .text-card-inovation-two {
+        gap: 8px;
+    }
+
+    .text-card-inovation h5 {
+        font-size: 12px;
+    }
+
+    .text-card-inovation-two h5 {
+        font-size: 12px;
+    }
+
+    .text-card-inovation li {
+        font-size: 10px;
+
+    }
+
+    .text-card-inovation-two li {
+        font-size: 10px;
+    }
+
+    .text-card-inovation ul {
+
+        width: 145px;
+        margin-left: 10px;
+    }
+
+    .text-card-inovation-two ul {
+        margin: 0;
+        width: 145px;
+    }
+
+
+    .rectangle-orthodontic {
+        width: 3px;
+        height: 13px;
+    }
+
+    .title-orthodontic h3 {
+        font-size: 16px;
+    }
+
+    .sub-title-orthodontic h6 {
+        font-size: 14px;
+    }
+
+    .description-orthodontic p {
+        font-size: 10px;
+    }
+
+
+    .cards-orthodontic {
+        gap: 16px;
+    }
+
+    #card-orthodontic {
+        width: 167px;
+        gap: 8px;
+    }
+
+    #card-orthodontic-two {
+        width: 167px;
+        gap: 8px;
+    }
+
+    #card-orthodontic img {
+        height: 50px;
+        bottom: 15px;
+        position: relative;
+    }
+
+    .images-aligner {
+        width: 106px;
+        height: 59px;
+        bottom: 15px;
+        position: relative;
+    }
+
+    .aligner-one {
+        width: 53px;
+        height: 58px;
+    }
+
+    .aligner-two {
+        width: 64px;
+        height: 58px;
+    }
+
+.text-card-orthodontic {
+gap: 8px;
+width: 160px;
+}
+
+.text-card-orthodontic-two {
+    gap: 8px;
+    width: 166px; 
+}
+    .text-card-orthodontic ul {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .text-card-orthodontic-two ul {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        
+    }
+
+    .text-card-orthodontic li {
+        font-size: 8px;
+
+    }
+
+    .text-card-orthodontic-two li {
+        font-size: 8px;
+    }
+
+    .text-card-orthodontic h5 {
+        font-size: 11px;
+
+    }
+
+    .text-card-orthodontic-two h5 {
+        font-size: 11px;
+    }
+
+
+
+
+
 
 
 

@@ -65,7 +65,7 @@ export default function Main() {
                                     <img src={Implant} alt="Implantes" />
                                 </div>
                                 <div class="card">
-                                    <p>
+                                    <p id='p-br'>
                                         Próteses Dentárias <br />
                                     </p>
                                     <img
@@ -99,14 +99,14 @@ export default function Main() {
                                     />
                                 </div>
                                 <div class="card">
-                                    <p>Tratamento de Canal</p>
+                                    <p id='p-br'>Tratamento de Canal</p>
                                     <img
                                         src={ToothCanal}
                                         alt="Tratamento de Canal"
                                     />
                                 </div>
                                 <div class="card">
-                                    <p>Clareamento e Limpezas</p>
+                                    <p id='p-br'>Clareamento e Limpezas</p>
                                     <img
                                         src={Whitening}
                                         alt="Clareamento e Limpezas"
@@ -228,7 +228,7 @@ export default function Main() {
                         <div className="card-main" id="card-orthodontic">
                             <div className="text-card-orthodontic">
                                 <h5>Aparelho Fixo</h5>
-                                <ul>
+                                <ul className='ul-left'>
                                     <li>
                                         Correção eficiente – Ideal para alinhamento de dentes desalinhados e correção de mordidas complexas.
                                     </li>
@@ -236,7 +236,7 @@ export default function Main() {
                                         Manutenção periódica – Requer visitas regulares ao ortodontista para ajustes e acompanhamento.
                                     </li>
                                 </ul>
-                                <ul>
+                                <ul className='ul-right'>
                                     <li>
                                         Componentes metálicos – Utiliza braquetes e fios estéticos que exercem força controlada nos dentes
                                     </li>
