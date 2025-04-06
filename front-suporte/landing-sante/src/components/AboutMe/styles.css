@@ -1,24 +1,28 @@
 .about-me {
     width: 100%;
-    height: 620px;
+    height: 835px;
     background-color: #1B1E21;
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
 
 }
 
 .about-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 60px 189.5px;
+    padding: 60px 189.5px 0 189.5px;
     gap: 42px;
 
 }
+
 .rectangle-about {
     width: 8px;
     height: 38px;
     background-color: var(--asparagus);
 }
+
 .title-about h3 {
     color: var(--seasalt);
     font-family: var(--primary-font);
@@ -86,13 +90,68 @@
     width: 500px;
 }
 
+
+
+.responsible-container {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 189px;
+    
+
+
+}
+
+.titles-responsible {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title-responsible {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.title-responsible h3 {
+    font-family: var(--primary-font);
+    font-size: 40px;
+    font-weight: 600;
+    color: #F8F9FA;
+}
+
+.sub-title-responsible h5 {
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: 500;
+    color: #E6E7E8;
+}
+
+.description-responsible p {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #E6E7E8;
+}
+
+
+
+#cro {
+    color: #A6A7A9;
+}
+
+
+
 @media screen and (max-width:744px) {
 
 
     .about-me {
         margin: 0;
         width: 100%;
-        height: 371px;
+        height: 473px;
     }
 
     .rectangle-about {
@@ -102,7 +161,7 @@
 
     .about-container {
 
-        padding: 31px 80px;
+        padding: 31px 80px 0 80px;
         gap: 19px;
         align-items: center;
         justify-content: center;
@@ -146,5 +205,32 @@
         height: 160px;
 
     }
-    
+
+    .responsible-container {
+        padding: 10px 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .title-responsible h3 {
+        font-size: 20px;
+    }
+
+    .sub-title-responsible h5 {
+        font-size: 16px;
+    }
+
+    .description-responsible p {
+        font-size: 10px;
+    }
+
+   
+
+    .titles-responsible {
+        gap: 8px;
+    }
+
 }

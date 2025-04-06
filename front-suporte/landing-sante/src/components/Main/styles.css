@@ -1288,6 +1288,8 @@ main {
     }
 
 
+
+
     .rectangle-orthodontic {
         width: 3px;
         height: 13px;
@@ -1343,15 +1345,16 @@ main {
         height: 58px;
     }
 
-.text-card-orthodontic {
-gap: 8px;
-width: 160px;
-}
+    .text-card-orthodontic {
+        gap: 8px;
+        width: 160px;
+    }
 
-.text-card-orthodontic-two {
-    gap: 8px;
-    width: 166px; 
-}
+    .text-card-orthodontic-two {
+        gap: 8px;
+        width: 166px;
+    }
+
     .text-card-orthodontic ul {
         display: flex;
         flex-direction: column;
@@ -1362,7 +1365,7 @@ width: 160px;
         display: flex;
         flex-direction: column;
         gap: 6px;
-        
+
     }
 
     .text-card-orthodontic li {
@@ -1382,6 +1385,124 @@ width: 160px;
     .text-card-orthodontic-two h5 {
         font-size: 11px;
     }
+
+
+
+
+
+    .anesthesia-container {
+        gap: 20px;
+    }
+
+    .rectangle-anesthesia {
+        width: 3px;
+        height: 13px;
+    }
+
+    .title-anesthesia h3 {
+        font-size: 16px;
+    }
+
+    .sub-title-anesthesia h6 {
+        font-size: 14px;
+    }
+
+    .description-anesthesia p {
+        font-size: 10px;
+    }
+
+    .description-anesthesia {
+        gap: 10px;
+    }
+
+    .cards-anesthesia {
+        gap: 16px;
+        height: 266px;
+    }
+
+    .text-card-anesthesia {
+        gap: 5px;
+        width: 100%;
+    }
+
+    .text-card-anesthesia-two {
+        gap: 5px;
+        width: 100%;
+    }
+
+    .text-card-anesthesia ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+        padding: 5px 8px;
+
+        justify-content: center;
+    }
+
+    .text-card-anesthesia-two ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+        padding: 5px 6.5px;
+
+        justify-content: center;;
+    }
+
+    .text-card-anesthesia li {
+        font-size: 8px;
+
+    }
+
+    .text-card-anesthesia-two li {
+        font-size: 8px;
+    }
+
+    .text-card-anesthesia h5 {
+        font-size: 11px;
+
+    }
+
+    .text-card-anesthesia-two h5 {
+        font-size: 11px;
+
+    }
+
+    #card-anesthesia {
+        width: 167px;
+        height: 270px;
+        gap: 4px;
+    }
+
+    #card-anesthesia img {
+        width: 108px;
+        height: 65px;
+    }
+
+    #card-anesthesia-two img {
+        width: 108px;
+        height: 70px;
+    }
+
+    #card-anesthesia-two {
+        width: 167px;
+        height: 270px;
+        gap: 4px;
+    }
+
+    .li-right {
+        left: 0;
+    }
+
+.li-left {
+    left: 5px;
+}
+
+.ul-right {
+    position: relative;
+    left: 5px;
+}
 
 
 

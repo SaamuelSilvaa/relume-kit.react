@@ -316,7 +316,7 @@ export default function Main() {
                                 <h5>Óxido Nitroso</h5>
                                 <ul>
                                     <li>
-                                        Reduz a ansiedade e promoverelaxamento imediato, proporcionando uma experiência mais tranquila.
+                                        Reduz a ansiedade e promove relaxamento imediato, proporcionando uma experiência mais tranquila.
                                     </li>
                                     <li>
                                         O efeito desaparece em poucos minutos, portanto a pessoa pode retomar suas atividades normais sem restrições.

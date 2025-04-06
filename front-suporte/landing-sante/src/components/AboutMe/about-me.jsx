@@ -57,6 +57,29 @@ export default function AboutMe() {
                     <img className='office' src={OfficeTwo} alt="" />
                     <img className='large' src={ClinicalEntrance} alt="" />
                 </div>
+
+
+            </div>
+            <div className="responsible-container">
+                <div className="titles-responsible">
+                    <div className="title-responsible">
+                        <div className="rectangle-about"></div>
+                        <h3>Responsável Técnico & Clínico</h3>
+                    </div>
+                    <div className="sub-title-responsible">
+                        <h5>Dra Francisca C B Martins</h5>
+                        <h5 id='cro'>CRO SP 96.241</h5>
+                    </div>
+                </div>
+
+                <div className="description-responsible">
+                    <p>Odontologista e Implantodontia formada pela Universidade Nove de Julho <br />
+                        Ortopedia Facial e Ortodontia – Universidade Cruzeiro do Sul
+                    </p>
+                </div>
+
+
+
             </div>
         </section>
 
