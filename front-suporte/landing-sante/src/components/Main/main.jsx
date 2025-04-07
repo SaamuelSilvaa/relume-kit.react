@@ -326,7 +326,7 @@ export default function Main() {
                                     <li>
                                         Não causa sonolência prolongada. O paciente permanece acordado e  alerta durante todo o procedimento.
                                     </li>
-                                    <li className="li-right">
+                                    <li className="li-right-anesthesia">
                                         Seguro para crianças e adultos, pois é um Método  amplamente utilizado e recomendado por  especialistas em odontologia.
                                     </li>
                                 </ul>

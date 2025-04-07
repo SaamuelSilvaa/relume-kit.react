@@ -1,4 +1,3 @@
- 
  .info-clinic {
      display: flex;
      width: 100%;
@@ -7,8 +6,8 @@
      justify-content: space-between;
      background-color: var(--platinum);
      align-items: center;
-     
-     
+
+
  }
 
 
@@ -50,7 +49,7 @@
      justify-content: space-between;
      background-color: var(--seasalt);
      align-items: center;
-     
+
  }
 
  .logo-name {
@@ -115,10 +114,12 @@
 
  }
 
+
  @media (max-width: 744px) {
 
      .nav-contact {
          display: none;
+
      }
 
      .info-clinic {
@@ -126,35 +127,181 @@
      }
 
      .menu-hamburger {
-        display: block;
-     }
-     .menu-hamburger button {
-         justify-content: flex-end;
-         background-color: transparent;
-         cursor:pointer;
-         outline: none;
-         -webkit-tap-highlight-color: transparent;
-
+         display: block;
      }
 
      .nav-clinic {
          justify-content: space-between;
-         padding-left: 40px;
-         padding-right: 42px;
+         
 
      }
 
 
+
+
+
+     .hamburger.open span:nth-child(1) {
+         transform: translateY(0.6rem) rotate(45deg);
+     }
+
+     .hamburger.open span:nth-child(2) {
+         opacity: 0;
+     }
+
+     .hamburger.open span:nth-child(3) {
+         transform: translateY(-0.6rem) rotate(-45deg);
+     }
+
+
+
+
+     /* Quando aberto, traz a overlay para a tela */
+     .overlay.show {
+         transform: translateY(0);
+         width: 100%;
+         height: 100vh;
+         z-index: 1000;
+         background-color: #F8F9FA;
+     }
+
+     /* Estilo da nav dentro da overlay */
+     .overlay-nav ul {
+         list-style: none;
+         padding: 0;
+         gap: 40px;
+         display: flex;
+         flex-direction: column;
+     }
+
+
+     .overlay-nav a {
+         text-decoration: none;
+         font-size: 1.5rem;
+         color: #333;
+         transition: color 0.2s;
+     }
+
+     .contact-mobile {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: 24px;
+     }
+
+     .overlay {
+         position: fixed;
+         top: 0;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         height: 100vh;
+         background: #F8F9FA;
+         transform: translateY(-100%);
+         transition: transform 0.3s ease-in-out;
+         z-index: 1000;
+         display: flex;
+         flex-direction: column;
+         background-image: url(../../assets/icons/logo-overlay.png);
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: 60%;
+         
+     }
+
  }
 
- @media screen and (max-width:430px) {
-    
-    .nav-clinic {
-        padding-left: 20px;
-        padding-right: 21px;
-        justify-content: space-between;
+ .overlay-nav {
+     display: flex;
+     position: relative;
+     top: 109px;
+     left: 30px;
+     
+     
+ }
 
-    }
+
+ .overlay-nav li {
+     font-family: var(--primary-font);
+     font-weight: 700;
+ }
+
+ .contact-mobile h2 {
+     font-family: var(--secondary-font);
+     font-size: 24px;
+     font-weight: 700;
+ }
+
+ .contact-mobile h1 {
+     font-family: var(--secondary-font);
+     font-size: 32px;
+     font-weight: 500;
+ }
+
+ .mobile-bottom {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 24px;
+     padding: 0 146px 8px 146px;
+     margin-top: auto;
+
+ }
+
+ 
+ #button-mobile {
+     width: 272px;
+     height: 44px;
+     padding: 12px 32px;
+     align-items: center;
+     justify-content: center;
+ }
+
+
+ @media screen and (max-width:430px) {
+
+     .nav-clinic {
+         padding-left: 20px;
+         padding-right: 21px;
+         justify-content: space-between;
+
+     }
+
+.contact-mobile p {
+    font-size: 16px;
+}
+
+.contact-mobile h2 {
+    font-size: 16px;
+}
+.contact-mobile h1 {
+    font-size: 16px;
+}
+
+.mobile-bottom {
+    padding: 0 53px;
+    gap: 46px;
+}
+.contact-mobile {
+    gap: 16px;
+}
+.overlay-nav li {
+    font-size: 32px;
+}
+.overlay-nav ul {
+    
+top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
  }

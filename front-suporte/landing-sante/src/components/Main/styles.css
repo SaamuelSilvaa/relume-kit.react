@@ -1497,7 +1497,7 @@ main {
         gap: 4px;
     }
 
-    .li-right {
+    .li-right-anesthesia {
         left: 0;
     }
 
@@ -1505,11 +1505,15 @@ main {
         left: 5px;
     }
 
-    .ul-right {
+    .ul-right-anesthesia {
         position: relative;
         left: 5px;
     }
 
+    .li-right-two {
+        position: relative;
+        left: 5px;
+    }
 
 
 

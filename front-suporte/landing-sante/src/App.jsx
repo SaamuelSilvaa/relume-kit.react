@@ -7,12 +7,10 @@ import Location from './components/Location/location'
 import Footer from './components/Footer/footer'
 
 
-
 function App() {
   return (
 
     <body>
-
       <Header />
       <Hero />
       <Main />
